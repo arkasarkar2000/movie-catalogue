@@ -2,7 +2,6 @@
 import './App.css';
 
 import MovieBox from "./components/MovieBox";
-import Clock from './components/Clock';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 const SEARCHAPI = `https://api.themoviedb.org/3/search/movie?&api_key=${process.env.REACT_APP_API_KEY}&query=`;
@@ -111,7 +110,7 @@ function App() {
             </div>
         </div>
       <MovieBox movies={movies}/>
-      <Clock/>
+      
 
     </div>
   );

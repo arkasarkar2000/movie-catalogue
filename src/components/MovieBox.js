@@ -1,6 +1,7 @@
 import React from 'react';
 import "./MovieBox.css";
 import Cards from "./Cards";
+import "../App.css"
 
 
 const MovieBox = (props) => {
